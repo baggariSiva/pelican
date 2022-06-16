@@ -2,8 +2,43 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/pelican"><img src="deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
+This is a very basic example of a simple Pelican App.
 
-<img src="screenshot.png" alt="screenshot of the pelican app" width="100%" />
+<img src="screenshot.png" alt="screenshot of the Pelican app" width="100%" />
+
+# Steps to clone this repository and run locally.
+
+
+### Step 1: Clone this repository.
+
+```
+git clone https://github.com/elestio-examples/pelican.git
+```
+### Step 2: Go to project folder.
+
+```
+cd pelican
+```
+
+### Step 3: Install pelican.
+
+```
+pip install pelican
+```
+
+### Step 4: Install requirements.txt file.
+
+```
+pip install -r requirements.txt
+```
+
+### Step 5: Run your app in dev mode.
+
+```
+pelican --autoreload --listen
+```
+
+### Step 6: Make some changes and push.
 
 
 ## CI/CD on Elestio
@@ -24,14 +59,14 @@ We have three different types of deployment method
 - Gitlab
 - Docker compose
 
-But for this Pelican Template, you can choose GitHub as your deployment method.
+But for this NextJs Template, you can choose GitHub as your deployment method.
 
 ### Step 3: Authentication
 
-Select Clone in step at step Git Repository and select Pelican template for creating a repository in your git account after that authenticate with Git by clicking on
+Select Clone in step at step Git Repository and select NextJs template for creating a repository in your git account after that authenticate with Git by clicking on
 Continue with Github button and authorize elestio to access git then you can rename you repository name if you want.
 
-Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the pelican repo otherwise you can directly insert a git repo URL to deploy the Pelican App.
+Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the NextJs repo otherwise you can directly insert a git repo URL to deploy the NextJs application.
 
 ### Step 4: Configuration
 
