@@ -59,14 +59,14 @@ We have three different types of deployment method
 - Gitlab
 - Docker compose
 
-But for this NextJs Template, you can choose GitHub as your deployment method.
+But for this  Template, you can choose GitHub as your deployment method.
 
 ### Step 3: Authentication
 
-Select Clone in step at step Git Repository and select NextJs template for creating a repository in your git account after that authenticate with Git by clicking on
+Select Clone in step at step Git Repository and select Pelican template for creating a repository in your git account after that authenticate with Git by clicking on
 Continue with Github button and authorize elestio to access git then you can rename you repository name if you want.
 
-Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the NextJs repo otherwise you can directly insert a git repo URL to deploy the NextJs application.
+Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the Pelican repo otherwise you can directly insert a git repo URL to deploy the Pelican application.
 
 ### Step 4: Configuration
 
