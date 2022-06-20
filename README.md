@@ -4,7 +4,7 @@ This is a minimal example of a Pelican static site created using pelican-quickst
 
 Click on the button below to deploy this repository with CI/CD on Elestio:
 
-<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/jekyll"><img src="deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
+<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/pelican"><img src="deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
 <img src="screenshot.png" alt="screenshot of the Pelican app" width="100%" />
 
